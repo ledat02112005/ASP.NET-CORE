@@ -1,0 +1,118 @@
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.Development.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.runtime.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.endpoints.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.exe
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.deps.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.runtimeconfig.json
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.dll
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.pdb
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.dll
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.AssemblyReference.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfoInputs.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfo.cs
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cs
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\bundle\SportsStore.WebUI.styles.css
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\SportsStore.WebUI.bundle.scp.css
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.SportsStore.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.SportsStore.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.build.SportsStore.WebUI.props
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SportsStore.WebUI.props
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SportsStore.WebUI.props
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsSt.CE40FBEB.Up2Date
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.dll
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\refint\SportsStore.WebUI.dll
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.pdb
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.genruntimeconfig.cache
+D:\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\refint\SportsStore.WebUI.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.pdb
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.runtime.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.endpoints.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.exe
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.deps.json
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.runtimeconfig.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.dll
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.pdb
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.dll
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.dll
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.pdb
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfoInputs.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfo.cs
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cs
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\bundle\SportsStore.WebUI.styles.css
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\SportsStore.WebUI.bundle.scp.css
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\swae.build.ex.cache
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsSt.CE40FBEB.Up2Date
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.genruntimeconfig.cache
+c:\Users\SV\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\refint\SportsStore.WebUI.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.Development.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\appsettings.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.runtime.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.endpoints.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.exe
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.deps.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.runtimeconfig.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.dll
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.dll
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.dll
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.AssemblyReference.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfoInputs.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfo.cs
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.MvcApplicationPartsAssemblyInfo.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cs
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\bundle\SportsStore.WebUI.styles.css
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\SportsStore.WebUI.bundle.scp.css
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\swae.build.ex.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsSt.CE40FBEB.Up2Date
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.genruntimeconfig.cache
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
+F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

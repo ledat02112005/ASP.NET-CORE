@@ -1,0 +1,16 @@
+@model SportsStore.Domain.Cart
+
+<div class="d-flex align-items-center gap-2">
+    @if (Model.Lines.Count() > 0)
+    {
+        <small class="navbar-text text-white">
+            <b>Your cart:</b>
+            @Model.Lines.Sum(x => x.Quantity) item(s)
+            @Model.ComputeTotalValue().ToString("c")
+        </small>
+    }
+    <a class="btn btn-sm btn-secondary" asp-controller="Cart" asp-action="Index"
+       asp-route-returnurl="@ViewContext.HttpContext.Request.Path@ViewContext.HttpContext.Request.QueryString">
+        🛒 Cart
+    </a>
+</div>

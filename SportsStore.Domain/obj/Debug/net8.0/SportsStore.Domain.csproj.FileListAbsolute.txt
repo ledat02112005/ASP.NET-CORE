@@ -1,0 +1,33 @@
+D:\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+D:\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+D:\SportsStore\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+c:\Users\SV\Desktop\SportsStore\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+f:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll

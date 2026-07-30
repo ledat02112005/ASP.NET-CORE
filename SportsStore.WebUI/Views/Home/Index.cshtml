@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SportsStore.Domain.ModelProduct>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Danh sách sản phẩm</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var p in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(p.ImageUrl))
+                    {
+                        <img src="@p.ImageUrl" class="card-img-top" alt="@p.Name"
+                             style="height: 200px; object-fit: cover;" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@p.Name</h5>
+                        <p class="card-text text-muted small">@p.Description</p>
+                        <p class="card-text">
+                            <span class="badge bg-secondary">@p.Category</span>
+                        </p>
+                        <p class="text-danger fw-bold fs-5">@p.Price.ToString("c")</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                            <input type="hidden" name="productId" value="@p.ProductID" />
+                            <input type="hidden" name="returnUrl"
+                                   value="@ViewContext.HttpContext.Request.Path@ViewContext.HttpContext.Request.QueryString" />
+                            <button type="submit" class="btn btn-success btn-sm float-end">
+                                Add To Cart
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
