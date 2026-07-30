@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj",
+      "projectUniqueName": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
       "projectName": "SportsStore.Domain",
-      "projectPath": "f:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj",
+      "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
       "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-      "outputPath": "f:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\obj\\",
+      "outputPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

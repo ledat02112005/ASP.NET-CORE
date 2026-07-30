@@ -4,34 +4,31 @@ using SportsStore.WebUI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// -------------------------------------------------------------
+// 1. ĐĂNG KÝ CÁC DỊCH VỤ (SERVICES)
+// -------------------------------------------------------------
 builder.Services.AddControllersWithViews();
 
-// Đăng ký IProductRepository với implementation FakeProductRepository
+// Đăng ký Repository
 builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
 
-// Đăng ký bộ nhớ đệm dạng Ram (Session cần cái này để hoạt động)
+// Đăng ký Session & Cache
 builder.Services.AddDistributedMemoryCache();
-
-// Đăng ký dịch vụ Session vào hệ thống
 builder.Services.AddSession(options => {
-    // Nếu khách không thao tác gì trên web trong 30 phút, giỏ hàng sẽ bị xóa
     options.IdleTimeout = TimeSpan.FromMinutes(30);
-    // Bảo mật: Không cho phép JavaScript ở trình duyệt đọc được Cookie chứa ID Session
     options.Cookie.HttpOnly = true;
-    // Đánh dấu Cookie này là thiết yếu, không bị chặn bởi các quy định GDPR
     options.Cookie.IsEssential = true;
 });
 
-// Đăng ký IHttpContextAccessor để SessionCart có thể truy cập Session
+// Đăng ký SessionCart
 builder.Services.AddHttpContextAccessor();
-
-// Đăng ký Cart theo scope - mỗi request sẽ lấy Cart từ Session hoặc tạo mới
 builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// -------------------------------------------------------------
+// 2. CẤU HÌNH PIPELINE XỬ LÝ REQUEST (MIDDLEWARE)
+// -------------------------------------------------------------
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -39,15 +36,18 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
 
-// Kích hoạt Session middleware - PHẢI đặt TRƯỚC UseRouting
-app.UseSession();
+// Phục vụ các file tĩnh trong wwwroot (ảnh, css, js) - Chỉ giữ 1 dòng ở đây
+app.UseStaticFiles();
 
 app.UseRouting();
 
+// Kích hoạt Session (Đặt sau UseRouting, trước Authorization & Route)
+app.UseSession();
+
 app.UseAuthorization();
 
+// Điều hướng Route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

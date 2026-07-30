@@ -31,3 +31,15 @@ F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Doma
 F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
 F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
 F:\WEBC ASP.NET\SportsStore\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
+D:\ASP.NET-CORE\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+D:\ASP.NET-CORE\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\ASP.NET-CORE\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.sourcelink.json
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+D:\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll

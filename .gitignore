@@ -1,0 +1,10 @@
+# Bỏ qua thư mục cấu hình cá nhân của Visual Studio
+.vs/
+
+# Bỏ qua các thư mục build biên dịch
+bin/
+obj/
+
+# Bỏ qua các file cấu hình người dùng
+*.user
+*.suo

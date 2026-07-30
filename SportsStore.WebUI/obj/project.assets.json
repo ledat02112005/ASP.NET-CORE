@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
+      "projectUniqueName": "D:\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
       "projectName": "SportsStore.WebUI",
-      "projectPath": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
+      "projectPath": "D:\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
       "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-      "outputPath": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.WebUI\\obj\\",
+      "outputPath": "D:\\ASP.NET-CORE\\SportsStore.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,11 +78,11 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj": {
-              "projectPath": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj"
+            "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj": {
+              "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj"
             },
-            "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {
-              "projectPath": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj"
+            "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {
+              "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj"
             }
           }
         }

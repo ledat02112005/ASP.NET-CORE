@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\WEBC ASP.NET\\SportsStore\\",
+  "WorkspaceRootPath": "D:\\ASP.NET-CORE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{251AF507-B856-4E2D-9406-79198CA081A9}|SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj|f:\\webc asp.net\\sportsstore\\sportsstore.infrastructure\\fakeproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3383168-5520-4BE2-AD94-897B2312CB39}|SportsStore.WebUI\\SportsStore.WebUI.csproj|d:\\asp.net-core\\sportsstore.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3383168-5520-4BE2-AD94-897B2312CB39}|SportsStore.WebUI\\SportsStore.WebUI.csproj|solutionrelative:sportsstore.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251AF507-B856-4E2D-9406-79198CA081A9}|SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj|d:\\asp.net-core\\sportsstore.infrastructure\\fakeproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251AF507-B856-4E2D-9406-79198CA081A9}|SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj|solutionrelative:sportsstore.infrastructure\\fakeproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|f:\\webc asp.net\\sportsstore\\sportsstore.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|d:\\asp.net-core\\sportsstore.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|solutionrelative:sportsstore.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|f:\\webc asp.net\\sportsstore\\sportsstore.domain\\modelproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|d:\\asp.net-core\\sportsstore.domain\\modelproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70724943-1C48-4DEE-A348-AEEA8542BC40}|SportsStore.Domain\\SportsStore.Domain.csproj|solutionrelative:sportsstore.domain\\modelproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,23 +31,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP.NET-CORE\\SportsStore.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "SportsStore.WebUI\\Program.cs",
+              "ToolTip": "D:\\ASP.NET-CORE\\SportsStore.WebUI\\Program.cs",
+              "RelativeToolTip": "SportsStore.WebUI\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T03:40:19.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FakeProductRepository.cs",
-              "DocumentMoniker": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Infrastructure\\FakeProductRepository.cs",
+              "DocumentMoniker": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\FakeProductRepository.cs",
               "RelativeDocumentMoniker": "SportsStore.Infrastructure\\FakeProductRepository.cs",
-              "ToolTip": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Infrastructure\\FakeProductRepository.cs",
+              "ToolTip": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\FakeProductRepository.cs",
               "RelativeToolTip": "SportsStore.Infrastructure\\FakeProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-30T03:10:52.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\IProductRepository.cs",
+              "DocumentMoniker": "D:\\ASP.NET-CORE\\SportsStore.Domain\\IProductRepository.cs",
               "RelativeDocumentMoniker": "SportsStore.Domain\\IProductRepository.cs",
-              "ToolTip": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\IProductRepository.cs",
+              "ToolTip": "D:\\ASP.NET-CORE\\SportsStore.Domain\\IProductRepository.cs",
               "RelativeToolTip": "SportsStore.Domain\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelProduct.cs",
-              "DocumentMoniker": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\ModelProduct.cs",
+              "DocumentMoniker": "D:\\ASP.NET-CORE\\SportsStore.Domain\\ModelProduct.cs",
               "RelativeDocumentMoniker": "SportsStore.Domain\\ModelProduct.cs",
-              "ToolTip": "F:\\WEBC ASP.NET\\SportsStore\\SportsStore.Domain\\ModelProduct.cs",
+              "ToolTip": "D:\\ASP.NET-CORE\\SportsStore.Domain\\ModelProduct.cs",
               "RelativeToolTip": "SportsStore.Domain\\ModelProduct.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

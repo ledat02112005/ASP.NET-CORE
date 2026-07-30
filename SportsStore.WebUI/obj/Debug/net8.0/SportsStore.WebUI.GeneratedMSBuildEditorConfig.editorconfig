@@ -12,49 +12,49 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsStore.WebUI
 build_property.RootNamespace = SportsStore.WebUI
-build_property.ProjectDir = F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI\
+build_property.ProjectDir = D:\ASP.NET-CORE\SportsStore.WebUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\WEBC ASP.NET\SportsStore\SportsStore.WebUI
+build_property.MSBuildProjectDirectory = D:\ASP.NET-CORE\SportsStore.WebUI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Cart/Index.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Home/Index.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Home/Privacy.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Shared/Components/CartSummary/Default.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Shared/Components/CartSummary/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFN1bW1hcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Shared/Error.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/_ViewImports.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/_ViewStart.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WEBC ASP.NET/SportsStore/SportsStore.WebUI/Views/Shared/_Layout.cshtml]
+[D:/ASP.NET-CORE/SportsStore.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oy7g17gonn
