@@ -157,3 +157,43 @@ D:\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\refint\SportsStore.WebUI.dll
 D:\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.pdb
 D:\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.genruntimeconfig.cache
 D:\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\appsettings.Development.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\appsettings.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.runtime.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.staticwebassets.endpoints.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.exe
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.deps.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.runtimeconfig.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.WebUI.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.AssemblyReference.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfoInputs.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.AssemblyInfo.cs
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.RazorAssemblyInfo.cs
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.sourcelink.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\bundle\SportsStore.WebUI.styles.css
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\SportsStore.WebUI.bundle.scp.css
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\swae.build.ex.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsSt.CE40FBEB.Up2Date
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\refint\SportsStore.WebUI.dll
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.genruntimeconfig.cache
+D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
