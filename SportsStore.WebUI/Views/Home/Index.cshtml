@@ -1,41 +1,105 @@
-﻿@model IEnumerable<SportsStore.Domain.ModelProduct>
+﻿@model SportsStore.WebUI.Models.ProductsListViewModel
 
 @{
     ViewData["Title"] = "Trang chủ";
 }
 
-<div class="container mt-4">
-    <h2 class="mb-4">Danh sách sản phẩm</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        @foreach (var p in Model)
-        {
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    @if (!string.IsNullOrEmpty(p.ImageUrl))
-                    {
-                        <img src="@p.ImageUrl" class="card-img-top" alt="@p.Name"
-                             style="height: 200px; object-fit: cover;" />
-                    }
-                    <div class="card-body">
-                        <h5 class="card-title">@p.Name</h5>
-                        <p class="card-text text-muted small">@p.Description</p>
-                        <p class="card-text">
-                            <span class="badge bg-secondary">@p.Category</span>
-                        </p>
-                        <p class="text-danger fw-bold fs-5">@p.Price.ToString("c")</p>
+<div class="container-fluid mt-4">
+    <div class="row">
+
+        @* Sidebar *@
+        <div class="col-md-2">
+            <h5 class="fw-bold mb-3">Danh mục</h5>
+            @await Component.InvokeAsync("NavigationMenu")
+        </div>
+
+        @* Danh sách sản phẩm *@
+        <div class="col-md-10">
+            <h2 class="mb-4">
+                @(string.IsNullOrEmpty(Model.CurrentCategory) ? "Tất cả sản phẩm" : Model.CurrentCategory)
+            </h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach (var p in Model.Products)
+                {
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            @if (!string.IsNullOrEmpty(p.ImageUrl))
+                            {
+                                <img src="@p.ImageUrl" class="card-img-top" alt="@p.Name"
+                                     style="height: 200px; object-fit: cover;" />
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@p.Name</h5>
+                                <p class="card-text text-muted small">@p.Description</p>
+                                <p class="card-text">
+                                    <span class="badge bg-secondary">@p.Category</span>
+                                </p>
+                                <p class="text-danger fw-bold fs-5">@p.Price.ToString("c")</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                                    <input type="hidden" name="productId" value="@p.ProductID" />
+                                    <input type="hidden" name="returnUrl"
+                                           value="@ViewContext.HttpContext.Request.Path@ViewContext.HttpContext.Request.QueryString" />
+                                    <button type="submit" class="btn btn-success btn-sm float-end">
+                                        Add To Cart
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <form asp-action="AddToCart" asp-controller="Cart" method="post">
-                            <input type="hidden" name="productId" value="@p.ProductID" />
-                            <input type="hidden" name="returnUrl"
-                                   value="@ViewContext.HttpContext.Request.Path@ViewContext.HttpContext.Request.QueryString" />
-                            <button type="submit" class="btn btn-success btn-sm float-end">
-                                Add To Cart
-                            </button>
-                        </form>
-                    </div>
-                </div>
+                }
             </div>
-        }
+
+            @* Phân trang *@
+            @if (Model.PagingInfo.TotalPages > 1)
+            {
+                <nav class="mt-4">
+                    <ul class="pagination justify-content-center">
+
+                        @* Nút Previous *@
+                        <li class="page-item @(Model.PagingInfo.CurrentPage == 1 ? "disabled" : "")">
+                            <a class="page-link"
+                               asp-action="Index"
+                               asp-route-page="@(Model.PagingInfo.CurrentPage - 1)"
+                               asp-route-category="@Model.CurrentCategory">
+                                &laquo;
+                            </a>
+                        </li>
+
+                        @* Các nút số trang *@
+                        @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+                        {
+                            <li class="page-item @(i == Model.PagingInfo.CurrentPage ? "active" : "")">
+                                <a class="page-link"
+                                   asp-action="Index"
+                                   asp-route-page="@i"
+                                   asp-route-category="@Model.CurrentCategory">
+                                    @i
+                                </a>
+                            </li>
+                        }
+
+                        @* Nút Next *@
+                        <li class="page-item @(Model.PagingInfo.CurrentPage == Model.PagingInfo.TotalPages ? "disabled" : "")">
+                            <a class="page-link"
+                               asp-action="Index"
+                               asp-route-page="@(Model.PagingInfo.CurrentPage + 1)"
+                               asp-route-category="@Model.CurrentCategory">
+                                &raquo;
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <p class="text-center text-muted small">
+                    Trang @Model.PagingInfo.CurrentPage / @Model.PagingInfo.TotalPages
+                    (Tổng @Model.PagingInfo.TotalItems sản phẩm)
+                </p>
+            }
+
+        </div>
     </div>
 </div>

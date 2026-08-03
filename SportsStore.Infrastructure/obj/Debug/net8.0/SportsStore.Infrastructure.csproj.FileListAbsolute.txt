@@ -75,3 +75,5 @@ D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsSto
 D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\refint\SportsStore.Infrastructure.dll
 D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
 D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.runtimeconfig.json
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.genruntimeconfig.cache
