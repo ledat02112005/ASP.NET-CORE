@@ -46,7 +46,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Phục vụ các file tĩnh trong wwwroot (ảnh, css, js) - Chỉ giữ 1 dòng ở đây
+// Phục vụ các file tĩnh trong wwwroot (ảnh, css, js)
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -60,5 +60,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Gọi phương thức seeding dữ liệu
+SeedData.EnsurePopulated(app);
 
 app.Run();

@@ -11,7 +11,7 @@ using SportsStore.Infrastructure;
 namespace SportsStore.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260803032704_InitialCreate")]
+    [Migration("20260806035417_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

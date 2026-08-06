@@ -897,7 +897,10 @@
         },
         "runtime": {
           "bin/placeholder/SportsStore.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

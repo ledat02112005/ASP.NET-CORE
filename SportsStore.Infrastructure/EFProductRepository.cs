@@ -1,18 +1,20 @@
+// SportsStore.Infrastructure/EFProductRepository.cs
 using SportsStore.Domain;
 
-namespace SportsStore.Infrastructure
+namespace SportsStore.Infrastructure;
+
+public class EFProductRepository : IProductRepository // Implement cùng interface với Fake repo
 {
-    public class EFProductRepository : IProductRepository
+    // Inject DbContext để làm việc với CSDL
+    private ApplicationDbContext _context;
+
+    public EFProductRepository(ApplicationDbContext ctx)
     {
-        private ApplicationDbContext _context;
-
-        // DI Container sẽ tự động inject ApplicationDbContext vào đây
-        public EFProductRepository(ApplicationDbContext ctx)
-        {
-            _context = ctx;
-        }
-
-        // Trả về dữ liệu Products thực từ CSDL thay vì dữ liệu giả
-        public IQueryable<ModelProduct> Products => _context.Products;
+        _context = ctx;
     }
+
+    // Triển khai thuộc tính Products được yêu cầu bởi interface.
+    // Thay vì trả về một List hard-code, giờ đây nó trả về một DbSet.
+    // EF Core sẽ dịch các truy vấn LINQ trên DbSet này thành câu lệnh SQL.
+    public IQueryable<ModelProduct> Products => _context.Products;
 }
