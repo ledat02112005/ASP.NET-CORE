@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SportsStore.WebUI.props" />
-</Project>

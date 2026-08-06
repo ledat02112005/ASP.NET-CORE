@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql;
 using SportsStore.Domain;
 using SportsStore.Infrastructure;
 using SportsStore.WebUI.Models;
@@ -9,8 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 // -------------------------------------------------------------
 builder.Services.AddControllersWithViews();
 
-// Đăng ký Repository
-builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
+// --- CẤU HÌNH EF CORE ---
+// Đăng ký DbContext với DI Container, đọc connection string từ appsettings.json
+builder.Services.AddDbContext<ApplicationDbContext>(options => {
+    var connectionString = builder.Configuration.GetConnectionString("SportsStoreConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
+// Thay FakeProductRepository bằng EFProductRepository (dùng CSDL thật)
+builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 
 // Đăng ký Session & Cache
 builder.Services.AddDistributedMemoryCache();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {}
+    "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj": {
+    "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
+        "projectUniqueName": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
         "projectName": "SportsStore.Domain",
-        "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
+        "projectPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj",
         "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\obj\\",
+        "outputPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {
+    "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
+        "projectUniqueName": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
         "projectName": "SportsStore.Infrastructure",
-        "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
+        "projectPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET-CORE\\SportsStore.Infrastructure\\obj\\",
+        "outputPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj": {
-                "projectPath": "D:\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj"
+              "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj": {
+                "projectPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Domain\\SportsStore.Domain.csproj"
               }
             }
           }
@@ -122,6 +122,16 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -59,3 +59,21 @@ D:\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastr
 D:\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\refint\SportsStore.Infrastructure.dll
 D:\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
 D:\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.deps.json
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.csproj.AssemblyReference.cache
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.AssemblyInfoInputs.cache
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.AssemblyInfo.cs
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.csproj.CoreCompileInputs.cache
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.sourcelink.json
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsSt.23F7FD65.Up2Date
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\refint\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.runtimeconfig.json
+D:\New folder\ASP.NET-CORE\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.genruntimeconfig.cache
