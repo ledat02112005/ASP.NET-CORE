@@ -11,11 +11,20 @@ namespace SportsStore.Domain
     {
         [Key]
         public int ProductID { get; set; }
-        public required string Name { get; set; } // required đảm bảo thuộc tính này phải được khởi tạo
+
+        [Required(ErrorMessage = "Vui lòng nhập tên sản phẩm")]
+        public required string Name { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng nhập mô tả")]
         public required string Description { get; set; }
+
+        [Required]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Vui lòng nhập giá trị dương")]
         public decimal Price { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng nhập danh mục")]
         public required string Category { get; set; }
-        // Thêm thuộc tính ImageUrl để lưu đường dẫn ảnh
+
         public string? ImageUrl { get; set; }
     }
 }
