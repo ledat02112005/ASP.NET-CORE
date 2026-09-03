@@ -42,5 +42,10 @@ namespace SportsStore.Infrastructure
                 Price = 34.95m, Category = "Soccer", ImageUrl ="/images/cornerflags.png"
             },
         }.AsQueryable(); // Chuyển List thành IQueryable
+
+        // Fake implementations — không thao tác dữ liệu thật
+        public void SaveProduct(ModelProduct product) { }
+
+        public ModelProduct? DeleteProduct(int productID) => null;
     }
 }

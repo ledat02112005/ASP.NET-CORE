@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsStore.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b18564a57184cbcd9843e5e0b167153b67fbf51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80a0310bbf471237a3098df52f6ba32fbd158fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsStore.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsStore.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2320,11 +2320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
+      "projectUniqueName": "d:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
       "projectName": "SportsStore.Infrastructure",
-      "projectPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
+      "projectPath": "d:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\obj\\",
+      "outputPath": "d:\\New folder\\ASP.NET-CORE\\SportsStore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

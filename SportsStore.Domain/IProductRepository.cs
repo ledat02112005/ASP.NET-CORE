@@ -9,5 +9,9 @@ namespace SportsStore.Domain
     public interface IProductRepository
     {
         IQueryable<ModelProduct> Products { get; }
+
+        void SaveProduct(ModelProduct product);
+
+        ModelProduct? DeleteProduct(int productID);
     }
 }

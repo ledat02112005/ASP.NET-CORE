@@ -55,3 +55,6 @@ D:\New folder\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domai
 D:\New folder\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
 D:\New folder\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
 D:\New folder\ASP.NET-CORE\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.Domain.deps.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.Domain.dll
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.Domain.pdb

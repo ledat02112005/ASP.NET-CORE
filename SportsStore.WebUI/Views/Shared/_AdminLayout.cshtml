@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - SportsStore Admin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="bg-dark text-white p-2">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <span class="navbar-brand text-white">SportsStore – Admin</span>
+            <a class="btn btn-sm btn-outline-light" href="/">Back to Store</a>
+        </div>
+    </header>
+
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/Admin">Products</a></li>
+                @if (ViewBag.Title != null && ViewBag.Title != "All Products")
+                {
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                }
+            </ol>
+        </nav>
+
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-4">
+        <div class="container">
+            &copy; 2026 - SportsStore Admin
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

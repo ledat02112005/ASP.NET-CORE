@@ -110,3 +110,12 @@ D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.
 D:\New folder\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.WebUI.dll
 D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\MySqlConnector.dll
 D:\New folder\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\New folder\ASP.NET-CORE\build_out\appsettings.Development.json
+D:\New folder\ASP.NET-CORE\build_out\appsettings.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.staticwebassets.runtime.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.staticwebassets.endpoints.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.exe
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.deps.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.runtimeconfig.json
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.dll
+D:\New folder\ASP.NET-CORE\build_out\SportsStore.WebUI.pdb

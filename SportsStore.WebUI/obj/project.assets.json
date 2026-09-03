@@ -2342,11 +2342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
+      "projectUniqueName": "d:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
       "projectName": "SportsStore.WebUI",
-      "projectPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
+      "projectPath": "d:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
       "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\obj\\",
+      "outputPath": "d:\\New folder\\ASP.NET-CORE\\SportsStore.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
