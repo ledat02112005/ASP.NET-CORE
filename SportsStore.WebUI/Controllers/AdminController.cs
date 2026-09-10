@@ -1,9 +1,11 @@
 // SportsStore.WebUI/Controllers/AdminController.cs
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SportsStore.Domain;
 
 namespace SportsStore.WebUI.Controllers;
 
+[Authorize] // Chỉ những người đã đăng nhập mới được vào đây
 public class AdminController : Controller
 {
     private readonly IProductRepository _repository;

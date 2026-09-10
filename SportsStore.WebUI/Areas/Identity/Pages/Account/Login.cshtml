@@ -1,0 +1,63 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Đăng nhập";
+}
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white">
+                <h4 class="mb-0">Đăng nhập quản trị</h4>
+            </div>
+            <div class="card-body p-4">
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger">@Model.ErrorMessage</div>
+                }
+
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Input.UserName" class="form-label fw-semibold">
+                            Tên đăng nhập
+                        </label>
+                        <input asp-for="Input.UserName"
+                               class="form-control"
+                               placeholder="Nhập tên đăng nhập"
+                               autocomplete="username" />
+                        <span asp-validation-for="Input.UserName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Input.Password" class="form-label fw-semibold">
+                            Mật khẩu
+                        </label>
+                        <input asp-for="Input.Password"
+                               class="form-control"
+                               placeholder="Nhập mật khẩu"
+                               autocomplete="current-password" />
+                        <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                    </div>
+
+                    <input type="hidden" asp-for="ReturnUrl" />
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-dark btn-lg">
+                            Đăng nhập
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

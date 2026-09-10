@@ -3,6 +3,7 @@ using Pomelo.EntityFrameworkCore.MySql;
 using SportsStore.Domain;
 using SportsStore.Infrastructure;
 using SportsStore.WebUI.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,12 +12,22 @@ var builder = WebApplication.CreateBuilder(args);
 // -------------------------------------------------------------
 builder.Services.AddControllersWithViews();
 
-// --- CẤU HÌNH EF CORE ---
-// Đăng ký DbContext với DI Container, đọc connection string từ appsettings.json
+// --- CẤU HÌNH EF CORE cho SportsStore (Products) ---
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
     var connectionString = builder.Configuration.GetConnectionString("SportsStoreConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
+
+// --- CẤU HÌNH EF CORE cho Identity ---
+builder.Services.AddDbContext<AppIdentityDbContext>(options => {
+    var connectionString = builder.Configuration.GetConnectionString("AppIdentityDbContextConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
+// --- ĐĂNG KÝ IDENTITY ---
+builder.Services.AddDefaultIdentity<AppUser>(options =>
+    options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<AppIdentityDbContext>();
 
 // Thay FakeProductRepository bằng EFProductRepository (dùng CSDL thật)
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
@@ -54,6 +65,8 @@ app.UseRouting();
 // Kích hoạt Session (Đặt sau UseRouting, trước Authorization & Route)
 app.UseSession();
 
+// Authentication phải đặt TRƯỚC Authorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 // Điều hướng Route
@@ -61,7 +74,11 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// Cần thiết để Identity UI (Razor Pages) hoạt động
+app.MapRazorPages();
+
 // Gọi phương thức seeding dữ liệu
 SeedData.EnsurePopulated(app);
+IdentitySeedData.EnsurePopulated(app);
 
 app.Run();

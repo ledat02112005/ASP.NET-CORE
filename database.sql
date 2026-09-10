@@ -51,3 +51,128 @@ INSERT INTO `Products` (`Name`, `Description`, `Price`, `Category`, `ImageUrl`) 
 
 -- 5. Kiểm tra kết quả
 SELECT * FROM `Products`;
+
+
+-- =====================================================
+-- SportsStoreIdentity Database Setup (ASP.NET Core Identity)
+-- =====================================================
+
+DROP DATABASE IF EXISTS `SportsStoreIdentity`;
+
+CREATE DATABASE `SportsStoreIdentity`
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE `SportsStoreIdentity`;
+
+-- EF Migrations History cho AppIdentityDbContext
+CREATE TABLE `__EFMigrationsHistory` (
+  `MigrationId`    VARCHAR(150) NOT NULL,
+  `ProductVersion` VARCHAR(32)  NOT NULL,
+  CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+
+INSERT INTO `__EFMigrationsHistory` VALUES ('20260910023852_IdentityInitial', '8.0.2');
+
+-- Bảng Roles
+CREATE TABLE `AspNetRoles` (
+  `Id`               VARCHAR(255) NOT NULL,
+  `Name`             VARCHAR(256) NULL,
+  `NormalizedName`   VARCHAR(256) NULL,
+  `ConcurrencyStamp` LONGTEXT     NULL,
+  CONSTRAINT `PK_AspNetRoles` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+
+CREATE UNIQUE INDEX `RoleNameIndex` ON `AspNetRoles` (`NormalizedName`);
+
+-- Bảng Users
+CREATE TABLE `AspNetUsers` (
+  `Id`                   VARCHAR(255) NOT NULL,
+  `UserName`             VARCHAR(256) NULL,
+  `NormalizedUserName`   VARCHAR(256) NULL,
+  `Email`                VARCHAR(256) NULL,
+  `NormalizedEmail`      VARCHAR(256) NULL,
+  `EmailConfirmed`       TINYINT(1)   NOT NULL DEFAULT 0,
+  `PasswordHash`         LONGTEXT     NULL,
+  `SecurityStamp`        LONGTEXT     NULL,
+  `ConcurrencyStamp`     LONGTEXT     NULL,
+  `PhoneNumber`          LONGTEXT     NULL,
+  `PhoneNumberConfirmed` TINYINT(1)   NOT NULL DEFAULT 0,
+  `TwoFactorEnabled`     TINYINT(1)   NOT NULL DEFAULT 0,
+  `LockoutEnd`           DATETIME(6)  NULL,
+  `LockoutEnabled`       TINYINT(1)   NOT NULL DEFAULT 0,
+  `AccessFailedCount`    INT          NOT NULL DEFAULT 0,
+  CONSTRAINT `PK_AspNetUsers` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+
+CREATE UNIQUE INDEX `UserNameIndex` ON `AspNetUsers` (`NormalizedUserName`);
+CREATE INDEX `EmailIndex` ON `AspNetUsers` (`NormalizedEmail`);
+
+-- Bảng RoleClaims
+CREATE TABLE `AspNetRoleClaims` (
+  `Id`          INT          NOT NULL AUTO_INCREMENT,
+  `RoleId`      VARCHAR(255) NOT NULL,
+  `ClaimType`   LONGTEXT     NULL,
+  `ClaimValue`  LONGTEXT     NULL,
+  CONSTRAINT `PK_AspNetRoleClaims` PRIMARY KEY (`Id`),
+  CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId`
+    FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE INDEX `IX_AspNetRoleClaims_RoleId` ON `AspNetRoleClaims` (`RoleId`);
+
+-- Bảng UserClaims
+CREATE TABLE `AspNetUserClaims` (
+  `Id`         INT          NOT NULL AUTO_INCREMENT,
+  `UserId`     VARCHAR(255) NOT NULL,
+  `ClaimType`  LONGTEXT     NULL,
+  `ClaimValue` LONGTEXT     NULL,
+  CONSTRAINT `PK_AspNetUserClaims` PRIMARY KEY (`Id`),
+  CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId`
+    FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE INDEX `IX_AspNetUserClaims_UserId` ON `AspNetUserClaims` (`UserId`);
+
+-- Bảng UserLogins
+CREATE TABLE `AspNetUserLogins` (
+  `LoginProvider`       VARCHAR(128) NOT NULL,
+  `ProviderKey`         VARCHAR(128) NOT NULL,
+  `ProviderDisplayName` LONGTEXT     NULL,
+  `UserId`              VARCHAR(255) NOT NULL,
+  CONSTRAINT `PK_AspNetUserLogins` PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+  CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId`
+    FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE INDEX `IX_AspNetUserLogins_UserId` ON `AspNetUserLogins` (`UserId`);
+
+-- Bảng UserRoles
+CREATE TABLE `AspNetUserRoles` (
+  `UserId` VARCHAR(255) NOT NULL,
+  `RoleId` VARCHAR(255) NOT NULL,
+  CONSTRAINT `PK_AspNetUserRoles` PRIMARY KEY (`UserId`, `RoleId`),
+  CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId`
+    FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+  CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId`
+    FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE INDEX `IX_AspNetUserRoles_RoleId` ON `AspNetUserRoles` (`RoleId`);
+
+-- Bảng UserTokens
+CREATE TABLE `AspNetUserTokens` (
+  `UserId`        VARCHAR(255) NOT NULL,
+  `LoginProvider` VARCHAR(128) NOT NULL,
+  `Name`          VARCHAR(128) NOT NULL,
+  `Value`         LONGTEXT     NULL,
+  CONSTRAINT `PK_AspNetUserTokens` PRIMARY KEY (`UserId`, `LoginProvider`, `Name`),
+  CONSTRAINT `FK_AspNetUserTokens_AspNetUsers_UserId`
+    FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+-- =====================================================
+-- Lưu ý: KHÔNG cần INSERT user Admin vào đây.
+-- IdentitySeedData.cs trong app sẽ tự tạo user Admin
+-- khi app khởi động lần đầu (nếu chưa tồn tại).
+-- =====================================================
