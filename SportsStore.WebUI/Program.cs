@@ -1,9 +1,13 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Pomelo.EntityFrameworkCore.MySql;
 using SportsStore.Domain;
 using SportsStore.Infrastructure;
+using SportsStore.WebUI.Middleware;
 using SportsStore.WebUI.Models;
 using Microsoft.AspNetCore.Identity;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,11 +48,44 @@ builder.Services.AddSession(options => {
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 
+// --- CẤU HÌNH CORS ---
+// Cho phép Angular dev server (http://localhost:4200) gọi API
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowSpecificOrigin",
+        policy => policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+
+// --- THÊM JWT BEARER làm scheme bổ sung (KHÔNG override default scheme của Identity) ---
+// Identity đã đăng ký Cookie scheme làm mặc định (qua AddDefaultIdentity ở trên).
+// Chỉ cần gọi AddJwtBearer để thêm Bearer scheme — MVC vẫn dùng Cookie, API dùng Bearer.
+builder.Services.AddAuthentication()
+    .AddJwtBearer(o => {
+        o.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidIssuer              = builder.Configuration["Jwt:Issuer"],
+            ValidAudience            = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey         = new SymmetricSecurityKey(
+                                           Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)),
+            ValidateIssuer           = true,
+            ValidateAudience         = true,
+            ValidateLifetime         = false, // Tạm thời tắt kiểm tra hết hạn để dễ test
+            ValidateIssuerSigningKey = true
+        };
+    });
+
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 // -------------------------------------------------------------
 // 2. CẤU HÌNH PIPELINE XỬ LÝ REQUEST (MIDDLEWARE)
 // -------------------------------------------------------------
+
+// Global Exception Handler - đặt đầu tiên để bắt mọi lỗi trong pipeline
+app.UseMiddleware<ExceptionHandlerMiddleware>();
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -60,12 +97,15 @@ app.UseHttpsRedirection();
 // Phục vụ các file tĩnh trong wwwroot (ảnh, css, js)
 app.UseStaticFiles();
 
+// Kích hoạt CORS - đặt trước UseRouting
+app.UseCors("AllowSpecificOrigin");
+
 app.UseRouting();
 
-// Kích hoạt Session (Đặt sau UseRouting, trước Authorization & Route)
+// Kích hoạt Session (đặt sau UseRouting, trước Authorization)
 app.UseSession();
 
-// Authentication phải đặt TRƯỚC Authorization
+// Authentication phải đứng TRƯỚC Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 

@@ -234,3 +234,11 @@ D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\ref\SportsStore.We
 D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.MvcApplicationPartsAssemblyInfo.cs
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\0306231282\ASP.NET-CORE\SportsStore.WebUI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
